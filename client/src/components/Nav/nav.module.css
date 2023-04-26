@@ -1,0 +1,28 @@
+.header {
+  height: 20vh;
+  width: 100%;
+  background: linear-gradient(rgba(177, 124, 84, 1) 0%, rgba(198, 155, 124, 1) 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.logo {
+  display: flex;
+  height: 150px;
+  align-items: center;
+}
+
+.img {
+  height: 60px;
+}
+
+.title {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  font-size: 4rem;
+  word-spacing: -10px;
+  letter-spacing: -5px;
+  padding: 0 20px;
+  color: white;
+}

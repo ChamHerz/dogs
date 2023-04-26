@@ -1,0 +1,46 @@
+.section {
+  position: relative;
+  min-height: 70vh;
+  background-color: #fff8e7;
+  line-height: 0; /* eliminar el espacio debajo de la imagen. */
+}
+
+.data {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.3rem;
+  color: white;
+}
+.title {
+  padding: 3rem;
+  font-size: xx-large;
+  opacity: 50%;
+  background-color: black;
+}
+
+.detail {
+  opacity: 50%;
+  background-color: black;
+  padding: 30px;
+}
+
+.detail h2 {
+  padding: 7px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.loader {
+  min-height: 70vh;
+  background-color: #fff8e7;
+}

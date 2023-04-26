@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url(./fonts/RobotoMono-VariableFont_wght.woff2) format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --dark-brown: #b17c54;
+  --medium-brown: #c59e81;
+  --light-brown: #fff8e7;
+}
+
+/* aplica estilo a todos los elementos del dom*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* clientWidth = width - padding - border*/
+  text-decoration: none; /* estilo para los enlaces */
+  list-style-type: none; /* resetear estilos de listas  */
+  border: none; /* reset el estilo para border */
+  font-family: 'Roboto Mono', monospace;
+  scrollbar-color: var(--dark-brown) var(--light-brown);
+}
+
+*:focus {
+  outline: none; /* reset linea de afuera para focus */
+}
+
+/* con flex no hay solapamiento entre cajas de margin-bottom con margin-top */
+/* No utilizar etiquetas li, a, select. Utilizar etiquetas div, button, datalist respectivamente */

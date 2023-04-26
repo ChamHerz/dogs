@@ -1,0 +1,49 @@
+.pagination {
+  width: 100%;
+  background-color: var(--light-brown);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 110px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.pageItem {
+  height: 30px;
+  width: 30px;
+  color: var(--medium-brown);
+  background-color: var(--light-brown);
+  border: 1px solid var(--medium-brown);
+  font-weight: 500;
+}
+
+.pageItem:hover {
+  transform: scale(2);
+  cursor: pointer;
+}
+
+.pageItem:active {
+  border: none;
+  color: var(--light-brown);
+  background-color: #ffe021;
+  box-shadow: 0 0 10px #ffe021, 0 0 40px;
+  font-weight: 900;
+}
+
+.active {
+  color: white;
+  background-color: var(--medium-brown);
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}

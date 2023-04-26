@@ -1,0 +1,76 @@
+.section {
+  min-height: 70vh;
+  width: 100%;
+  background-color: var(--light-brown);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  width: 80%;
+  margin: 20px;
+  border: 1px solid burlywood;
+}
+
+.searchBar {
+  margin: 20px;
+}
+
+.searchInput {
+  width: 400px;
+  text-align: right;
+  color: #b17c54;
+  font-size: large;
+  border: 1px solid #b17c54;
+}
+
+.searchButton {
+  all: unset; /* resetea(initial) los estilos que no son heredables. Aplica a cualquier tag */
+  cursor: pointer;
+  text-align: center;
+  background-color: #b17c54;
+  color: white;
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.searchInput:focus {
+  border: none;
+  outline: 2px solid #ffe021;
+}
+
+.filters {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.select {
+  border: none;
+  appearance: none;
+  padding: 4px;
+  margin: 5px;
+  width: 200px;
+  color: white;
+  background-color: #b17c54;
+}
+
+.label {
+  padding: 5px 0;
+  color: #b17c54;
+  margin: 5px;
+}
+
+.loader {
+  position: relative;
+  height: 200px;
+}
